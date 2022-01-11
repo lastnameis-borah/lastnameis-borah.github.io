@@ -1,0 +1,83 @@
+body{
+    margin: 0%;
+    text-align: center;
+}
+hr {
+    background-color: #B1D0E0;
+    border-color: #1A374D;
+    border-style: none;
+    border-top-style: dotted;    
+    border-width: 5px;
+    width: 40%;
+}
+.top-cloud{
+    position: absolute;
+    left: 900px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+}
+.top-container{
+    background-color: #B1D0E0;
+    padding: 5%;    
+    position: relative;
+}
+.middle-container{
+    background-color: #B1D0E0;
+    padding-top: 0%;
+    padding-bottom: 2%;    
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+.bottom-container{
+    background-color: #072227;
+    color: blanchedalmond;
+    padding-top: 5%;
+    padding-bottom: 5%;    
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+}
+.name{
+    color: #072227;
+    font-size: 7rem;
+    font-family: 'Island Moments', cursive;
+}
+.para{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.intro{
+    padding-top: 5%;
+    width: 50%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.experience{
+    line-height: 30px;
+}
+.projects{
+    line-height: 30px;
+}
+.footer-link{
+    padding: 5px;
+    text-decoration:none
+    /* To remove the underline below the link */
+}
+
+.myButton {
+	background-color:#072227;
+	border-radius:2px;
+	border:0px;
+    color: blanchedalmond;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding:10px 10px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#02161a;
+}
